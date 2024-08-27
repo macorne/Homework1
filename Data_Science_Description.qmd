@@ -1,0 +1,51 @@
+---
+title: "Data_Science_Description"
+format: html
+editor: visual
+---
+
+## What do you think being a data scientist is about?
+
+Being a data scientist involves working with raw data or cleaned data in different environments.  These environments include consoles, virtual desktops, and databases.
+
+Data scientists must manipulate data as needed.  They subset the data, building smaller dataframes with only those variables of interest to themselves or customers.  They also create new variables based on the variables native to the dataframes they are investigating.
+
+Data summary represents an important aspect of data science.  Using measures of central tendency, spread, and skewness, data scientists provide insights about the data.  Beyond this, they model data - identify distributions and assess significance - to make inference or predict outcomes within a certain confidence level.
+
+Finally, data scientists communicate their findings using spreadsheets, plots, simulations, dashboards, and narratives.  These are similar to the work of other scientists, and in fact many scientists trained in other STEM disciplines become data scientists.
+
+## What differences/similarities do you see between data scientists and statisticians?
+
+Data scientists and statisticians both need a keen understanding of the data with which they are working.  Both must also be able to present their findings coherently and cohesively.
+
+However, data scientists and statisticians differ in several ways.  First, data scientists use statistical techniques to obtain results, while statisticians develop statistical techniques and specific statistics.  It is not that data scientists cannot do these things, but they are more often occupied with data cleaning, data manipulation, responding to the needs of customers, and coordinating with integration teams to make sure their models work or work in concert with other models.
+
+Second, statisticians tend to be involved in frame management and development of survey questions.  Again, data scientists may be involved in these activities, but they often lack training to execute these tasks accurately.  Data scientists work with the data after it has already been generated.  They are less involved than statisticians in the generation of raw data.
+
+## How do you view yourself in relation to these two areas?
+
+My job title is "mathematical statistician."  My work actually does not involve very much statistics - at most, we use basic linear regression - and in fact it doesn't involve any complicated mathematics.  My own background is in mathematics and physics, so I would say that I have more in common with statisticians except that I have never developed a survey, done statistically rigorous experimental design, or worked in frame management.  By now, my experiences with data and data manipulation probably align moreso with those of a data scientist.
+
+##Iris Petal Width Code Chunk
+
+```{r}
+#| echo: false
+y <- density(iris$Petal.Width)
+```
+
+Determine the class, type, and structure of the object y:
+
+```{r}
+#| echo: false
+class(y)
+typeof(y)
+str(y)
+```
+
+Use the plot function on the object y:
+
+```{r}
+#| echo: false
+plot(y)
+```
+
