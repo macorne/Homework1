@@ -1,12 +1,13 @@
 ---
-title: "Homework 1"
+title: "ST 558, Homework 1"
+author: "Matthew Corne"
 format: html
 editor: visual
 ---
 
-# Part 1
+## Part 1
 
-## What do you think being a data scientist is about?
+### What do you think being a data scientist is about?
 
 Being a data scientist involves working with raw data or cleaned data in different environments.  These environments include consoles, virtual desktops, and databases.
 
@@ -16,7 +17,7 @@ Data summary represents an important aspect of data science.  Using measures of 
 
 Finally, data scientists communicate their findings using spreadsheets, plots, simulations, dashboards, and narratives.  These are similar to the work of other scientists, and in fact many scientists trained in other STEM disciplines become data scientists.
 
-## What differences/similarities do you see between data scientists and statisticians?
+### What differences/similarities do you see between data scientists and statisticians?
 
 Data scientists and statisticians both
 
@@ -29,13 +30,13 @@ Second, data scientists tend to use various techniques when they have to analyze
 
 This is not to say that data scientists and statisticians do not intersect in their duties, but there are clear differences in training and background of the two occupations.
 
-## How do you view yourself in relation to these two areas?
+### How do you view yourself in relation to these two areas?
 
 My job title is "mathematical statistician."  My work actually does not involve very much statistics - at most, we use basic linear regression - and in fact it doesn't involve any complicated mathematics.  My own background is in mathematics and physics, so I would say that I have more in common with statisticians except that I have never developed a survey, done statistically rigorous experimental design, or worked in frame management.  By now, my experiences with data and data manipulation probably align moreso with those of a data scientist.
 
-# Part 2
+## Part 2
 
-## R Programming Code Chunk Exercises
+### R Programming Code Chunk Exercises
 
 Apply the density function to the petal width column of the iris data frame:
 ```{r}
