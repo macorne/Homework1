@@ -1,5 +1,5 @@
 ---
-title: "Data_Science_Description"
+title: "Homework 1"
 format: html
 editor: visual
 ---
@@ -26,17 +26,16 @@ Second, statisticians tend to be involved in frame management and development of
 
 My job title is "mathematical statistician."  My work actually does not involve very much statistics - at most, we use basic linear regression - and in fact it doesn't involve any complicated mathematics.  My own background is in mathematics and physics, so I would say that I have more in common with statisticians except that I have never developed a survey, done statistically rigorous experimental design, or worked in frame management.  By now, my experiences with data and data manipulation probably align moreso with those of a data scientist.
 
-##Iris Petal Width Code Chunk
+##R Programming Code Chunks
 
+Apply the density function to the petal width column of the iris data frame:
 ```{r}
-#| echo: false
 y <- density(iris$Petal.Width)
 ```
 
 Determine the class, type, and structure of the object y:
 
 ```{r}
-#| echo: false
 class(y)
 typeof(y)
 str(y)
