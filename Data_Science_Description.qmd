@@ -26,7 +26,7 @@ Second, statisticians tend to be involved in frame management and development of
 
 My job title is "mathematical statistician."  My work actually does not involve very much statistics - at most, we use basic linear regression - and in fact it doesn't involve any complicated mathematics.  My own background is in mathematics and physics, so I would say that I have more in common with statisticians except that I have never developed a survey, done statistically rigorous experimental design, or worked in frame management.  By now, my experiences with data and data manipulation probably align moreso with those of a data scientist.
 
-##R Programming Code Chunks
+## R Programming Code Chunks
 
 Apply the density function to the petal width column of the iris data frame:
 ```{r}
