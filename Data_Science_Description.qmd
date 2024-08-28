@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-#Part 1
+# Part 1
 
 ## What do you think being a data scientist is about?
 
